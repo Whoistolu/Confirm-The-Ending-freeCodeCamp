@@ -15,8 +15,5 @@ function confirmEnding(str, target) {
   }
 
   return false;
-
-
 }
-
-console.logconsole.log(confirmEnding("Bastian", "n"));
+console.log(confirmEnding("Bastian", "n"));

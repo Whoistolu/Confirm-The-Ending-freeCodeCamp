@@ -1,5 +1,11 @@
 function confirmEnding(str, target) {
-    return str;
+    if (str.endsWith(target)) {
+        return true;
+    }
+
+    return false;
   }
   
-  confirmEnding("Bastian", "n");
+  console.log(confirmEnding("Bastian", "n"));
+
+  /********The code avove works*****/
